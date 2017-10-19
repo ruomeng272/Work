@@ -1,0 +1,69 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.12rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.box {
+  width: 100%;
+  margin-top: 0.15rem; }
+  .box h3 {
+    padding: 0.15rem 0.1rem;
+    border-bottom: 1px solid #eee; }
+  .box .title {
+    height: 0.45rem;
+    line-height: 0.45rem;
+    display: flex;
+    margin-top: 0.1rem;
+    background-color: #ccc; }
+    .box .title p {
+      -webkit-flex: 1;
+      display: flex; }
+      .box .title p span {
+        -webkit-flex: 1; }
+  .box .main .list li {
+    display: -webkit-flex;
+    line-height: 0.35rem;
+    border-bottom: 1px solid #ccc; }
+    .box .main .list li p {
+      -webkit-flex: 1;
+      display: -webkit-flex; }
+      .box .main .list li p span {
+        -webkit-flex: 1; }
+        .box .main .list li p span b {
+          padding: 0.02rem 0.06rem;
+          background-color: #c0c0c0;
+          margin: 0.007rem; }
+  .box em {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-right: 0.05rem; }
+  .box .red {
+    background-color: orangered; }
+
+.bottom {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background-color: #eee;
+  display: -webkit-flex; }
+  .bottom span {
+    -webkit-flex: 1; }
+  .bottom .dianj {
+    padding: 5px 20px;
+    background-color: orange; }
+
+.allon {
+  background-color: orangered; }
+
+.count {
+  display: inline-block;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem; }
+
+/*# sourceMappingURL=style.css.map */

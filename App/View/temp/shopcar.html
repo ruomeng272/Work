@@ -1,0 +1,16 @@
+<li>
+    <p>
+        <span><em ng-class="{red:item.circle}" ng-click="itemChecked(index)"></em></span>
+        <span>{{item.shops}}</span>
+    </p>
+    <p>
+        <span>{{item.price}}</span>
+        <span>
+            <b class="reduce" ng-click="itemCount('-')">-</b>
+            <span class="count">{{item.num}}</span>
+            <b class="add" ng-click="itemCount('+')">+</b>
+        </span>
+        <span>1200</span>
+        <span class="del" ng-click="deleteItem(index)">删除</span>
+    </p>
+</li>

@@ -1,0 +1,12 @@
+<shop
+        ng-repeat="item in shopcars"
+        item="item"
+        index="{{$index}}"
+        ></shop>
+
+<div class="bottom">
+        <span class="all"><em class="all" ng-class="{allon:flag}" ng-click="check()"></em>全选</span>
+        <span>删除</span>
+        <span>合计：￥{{allprice}}</b></span>
+        <span><b class="dianj">结算{{goodsCount}}</b></span>
+</div>

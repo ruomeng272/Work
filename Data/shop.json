@@ -1,0 +1,20 @@
+[
+  {
+    "circle":true,
+    "shops":"苹果",
+    "price":"2200",
+    "num":1
+  },
+  {
+    "circle":false,
+    "shops":"小米",
+    "price":"2100",
+    "num":1
+  },
+  {
+    "circle":false,
+    "shops":"华为",
+    "price":"2000",
+    "num":1
+  }
+]

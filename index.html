@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="Content/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/common.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/style.css">
+</head>
+<body ng-app="myapp">
+<div class="box">
+    <h3>购物车</h3>
+    <div class="title">
+        <p>
+            <span class="all">全部产品</span>
+            <span>商品信息</span>
+        </p>
+        <p>
+            <span>单价</span>
+            <span>数量</span>
+            <span>总价</span>
+            <span>操作</span>
+        </p>
+    </div>
+    <div class="main">
+        <ul class="list">
+            <ui-view></ui-view>
+        </ul>
+    </div>
+
+</div>
+<script type="text/javascript" src="Js/angular.js"></script>
+<script type="text/javascript" src="Js/angular-ui-router.js"></script>
+<script type="text/javascript" src="App/app.js"></script>
+
+<script type="text/javascript" src="App/Service/ajaxServer.js"></script>
+<script type="text/javascript" src="App/Service/shopServer.js"></script>
+
+
+<script type="text/javascript" src="App/Controller/shopController.js"></script>
+<script type="text/javascript" src="App/Controller/shopcarController.js"></script>
+
+<script type="text/javascript" src="App/Directive/shopDirective.js"></script>
+
+</body>
+</html>
